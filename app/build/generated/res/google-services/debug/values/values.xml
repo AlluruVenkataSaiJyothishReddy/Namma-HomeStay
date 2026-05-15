@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">454131890054-h7p3g8483rj39f70897n8av2jghc2gvo.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">454131890054</string>
+    <string name="google_api_key" translatable="false">AIzaSyDPV-Z_qVGXwAgUHIV9qgviQgVjM8D7QNQ</string>
+    <string name="google_app_id" translatable="false">1:454131890054:android:d55075474f2da1b0811e07</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDPV-Z_qVGXwAgUHIV9qgviQgVjM8D7QNQ</string>
+    <string name="google_storage_bucket" translatable="false">shelterspot-a185a.appspot.com</string>
+    <string name="project_id" translatable="false">shelterspot-a185a</string>
+</resources>
