@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#0f0f0f</color>
+    <color name="darkpurple">#3E2723</color>
+    <color name="golden_yellow">#FFC107</color>
+    <color name="grey">#606060</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="lightgrey">#D9D9D9</color>
+    <color name="lightpurple">#D7CCC8</color>
+    <color name="linecolor">#ebebeb</color>
+    <color name="linkblue">#065fd4</color>
+    <color name="prepurple">#5D4037</color>
+    <color name="primary_dark_earth">#5D4037</color>
+    <color name="primary_earth">#795548</color>
+    <color name="primary_light_earth">#A1887F</color>
+    <color name="purple">#795548</color>
+    <color name="purple_200">#A1887F</color>
+    <color name="purple_500">#795548</color>
+    <color name="purple_700">#5D4037</color>
+    <color name="secondary_coastal">#0097A7</color>
+    <color name="secondary_light_coastal">#4DD0E1</color>
+    <color name="teal_200">#4DD0E1</color>
+    <color name="teal_700">#0097A7</color>
+    <color name="txtblackbg">#F5F5F5</color>
+    <color name="warm_bg">#FFF8E1</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="whitebg">#FFF8E1</color>
+    <string name="Google_Map_API">AIzaSyB1CSlsrNkbRrF_8FJCmMaX-BhTd-KibXg</string>
+    <string name="app_name">Namma HomeStay</string>
+    <string name="btn_book_now">Request Stay</string>
+    <string name="btn_call_host">Call Host</string>
+    <string name="btn_message_host">Message Host</string>
+    <string name="default_web_client_id" translatable="false">454131890054-h7p3g8483rj39f70897n8av2jghc2gvo.apps.googleusercontent.com</string>
+    <string name="desc_daily_menu">Authentic local breakfast and traditional dinner specials prepared by the host family.</string>
+    <string name="desc_local_guide">Explore hidden waterfalls, secret viewpoints, and serene beaches recommended by locals.</string>
+    <string name="gcm_defaultSenderId" translatable="false">454131890054</string>
+    <string name="google_api_key" translatable="false">AIzaSyDPV-Z_qVGXwAgUHIV9qgviQgVjM8D7QNQ</string>
+    <string name="google_app_id" translatable="false">1:454131890054:android:d55075474f2da1b0811e07</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDPV-Z_qVGXwAgUHIV9qgviQgVjM8D7QNQ</string>
+    <string name="google_storage_bucket" translatable="false">shelterspot-a185a.appspot.com</string>
+    <string name="hello">hello</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_bookings">My Stays</string>
+    <string name="menu_daily_menu">Daily Menu</string>
+    <string name="menu_explore">Explore</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_local_guide">Local Guide</string>
+    <string name="menu_profile">Profile</string>
+    <string name="project_id" translatable="false">shelterspot-a185a</string>
+    <string name="section_amenities">Amenities &amp; Washroom</string>
+    <string name="section_daily_menu">Today\'s Local Menu</string>
+    <string name="section_inquiry">Inquiry Box</string>
+    <string name="section_local_guide">Local Guide &amp; Attractions</string>
+    <string name="section_nearby_scenery">Local Scenery</string>
+    <string name="section_room_photos">Room Gallery</string>
+    <string name="sub_tagline">Experience Local Living</string>
+    <string name="tagline">Stay Local • Travel Peacefully</string>
+    <string name="title_activity_cmap_view">Homestay Map</string>
+    <string name="title_activity_hotel_map_loc_set">Set Homestay Location</string>
+    <string name="welcome_message">Namaste! Welcome to Namma HomeStay</string>
+    <style name="Theme.ShelterSpot" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/primary_earth</item>
+        <item name="colorPrimaryVariant">@color/primary_dark_earth</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/secondary_coastal</item>
+        <item name="colorSecondaryVariant">@color/secondary_coastal</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+        <item name="android:windowBackground">@color/warm_bg</item>
+    </style>
+</resources>
