@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_earth">#795548</color> <!-- Warm Brown -->
+    <color name="primary_dark_earth">#5D4037</color>
+    <color name="primary_light_earth">#A1887F</color>
+    <color name="secondary_coastal">#0097A7</color> <!-- Coastal Teal -->
+    <color name="secondary_light_coastal">#4DD0E1</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#0f0f0f</color>
+
+    <color name="warm_bg">#FFF8E1</color> <!-- Light Amber/Cream -->
+    <color name="grey">#606060</color>
+    <color name="lightgrey">#D9D9D9</color>
+    <color name="linecolor">#ebebeb</color>
+    <color name="linkblue">#065fd4</color>
+    <color name="golden_yellow">#FFC107</color>
+
+    <!-- Map old names to new colors to minimize immediate breakage if they are used directly -->
+    <color name="purple_200">#A1887F</color>
+    <color name="purple_500">#795548</color>
+    <color name="purple_700">#5D4037</color>
+    <color name="teal_200">#4DD0E1</color>
+    <color name="teal_700">#0097A7</color>
+    <color name="purple">#795548</color>
+    <color name="prepurple">#5D4037</color>
+    <color name="lightpurple">#D7CCC8</color>
+    <color name="darkpurple">#3E2723</color>
+    <color name="whitebg">#FFF8E1</color>
+    <color name="txtblackbg">#F5F5F5</color>
+</resources>

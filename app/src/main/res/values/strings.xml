@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Namma HomeStay</string>
+    <string name="tagline">Stay Local • Travel Peacefully</string>
+    <string name="sub_tagline">Experience Local Living</string>
+    <string name="welcome_message">Namaste! Welcome to Namma HomeStay</string>
+
+    <!-- Navigation Titles -->
+    <string name="menu_home">Home</string>
+    <string name="menu_explore">Explore</string>
+    <string name="menu_bookings">My Stays</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_local_guide">Local Guide</string>
+    <string name="menu_daily_menu">Daily Menu</string>
+
+    <!-- Sections -->
+    <string name="section_room_photos">Room Gallery</string>
+    <string name="section_amenities">Amenities &amp; Washroom</string>
+    <string name="section_nearby_scenery">Local Scenery</string>
+    <string name="section_daily_menu">Today\'s Local Menu</string>
+    <string name="section_local_guide">Local Guide &amp; Attractions</string>
+    <string name="section_inquiry">Inquiry Box</string>
+
+    <!-- Content Placeholders -->
+    <string name="desc_daily_menu">Authentic local breakfast and traditional dinner specials prepared by the host family.</string>
+    <string name="desc_local_guide">Explore hidden waterfalls, secret viewpoints, and serene beaches recommended by locals.</string>
+
+    <!-- Buttons -->
+    <string name="btn_call_host">Call Host</string>
+    <string name="btn_message_host">Message Host</string>
+    <string name="btn_book_now">Request Stay</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Google_Map_API">AIzaSyB1CSlsrNkbRrF_8FJCmMaX-BhTd-KibXg</string>
+    <string name="title_activity_hotel_map_loc_set">Set Homestay Location</string>
+    <string name="title_activity_cmap_view">Homestay Map</string>
+    <string name="hello">hello</string>
+</resources>

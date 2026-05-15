@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ShelterSpot"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ShelterSpot">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".AccountCustomerDetails"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/Google_Map_API" />
+
+        <activity
+            android:name=".CMapView"
+            android:exported="false"
+            android:label="@string/title_activity_cmap_view" />
+        <activity
+            android:name=".HotelMapLocSetActivity"
+            android:exported="false"
+            android:label="@string/title_activity_hotel_map_loc_set" />
+        <activity
+            android:name=".HotelBookingDetails"
+            android:exported="false" />
+        <activity
+            android:name=".CHome"
+            android:exported="false" />
+        <activity
+            android:name=".CHotelDetails"
+            android:exported="false" />
+        <activity
+            android:name=".EditHotelDetails"
+            android:exported="false" />
+        <activity
+            android:name=".HotelHome"
+            android:exported="false" />
+        <activity
+            android:name=".HotelSignin"
+            android:exported="false" />
+        <activity
+            android:name=".HotelSigninSignup"
+            android:exported="false" />
+        <activity
+            android:name=".HotelSignup"
+            android:exported="false" />
+        <activity
+            android:name=".HotelHomeDetUpload"
+            android:exported="false" />
+        <activity
+            android:name=".SignupDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Signup"
+            android:exported="false" />
+        <activity
+            android:name=".Signin"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+    </application>
+
+</manifest>
