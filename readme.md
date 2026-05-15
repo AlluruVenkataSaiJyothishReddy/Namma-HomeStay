@@ -1,74 +1,199 @@
-# Namma HomeStay
+# Namma HomeStay 🏡
 
-Experience Local Living.
+### *Experience Local Living*
 
-This Android application, developed using Kotlin, XML, and Firebase, offers a comprehensive homestay
-management system with separate interfaces for travelers and homestay hosts. The app streamlines the
-process of booking local stays while providing hosts with tools to list and manage
-their properties efficiently.
+Namma HomeStay is a modern Android application built to connect travelers with authentic homestays across rural, coastal, and tourist destinations. The platform provides dedicated interfaces for both travelers and hosts, making local stay discovery, property management, and booking simple and seamless.
+
+Built using Kotlin, Firebase, Google Maps, and Razorpay integration, the application focuses on promoting local tourism while giving travelers a personalized and comfortable stay experience.
 
 ---
-## Features
 
-### Traveler Side
+# ✨ Features
 
-- **Authentication**: Secure login using Firebase authentication.
-- **Homestay Browsing**: View a list of stays with detailed information:
-    - Homestay name
-    - Location on Google Maps
-    - Price (including GST)
-    - Address
-    - Number of available rooms
-    - Capacity per room
-    - Contact details (phone and email)
-- **Search Functionality**: Find homestays by city or region.
-- **Booking System**:
-    - Book rooms with integrated Razorpay payment gateway.
-    - View booking history.
-- **Real-time Updates**: Automatic reduction of available rooms after booking.
-- **User Profile**: View and edit account details.
-- **Logout**: Secure sign-out option.
+## 🧳 Traveler Features
 
-### Host Side
+* Secure user authentication using Firebase
+* Explore curated homestays by region
+* Search stays by city or locality
+* View stay details, pricing, and room availability
+* Access local guides and nearby attractions
+* Contact hosts directly
+* Seamless booking experience
+* Clean and modern UI for smooth navigation
 
-- **Authentication**: Separate signup and signin options for homestay hosts.
-- **Homestay Management**:
-    - List new homestays with comprehensive details.
-    - Edit and update existing stay information.
-    - Manage room availability.
+---
 
-## Technology Stack
+## 🏠 Host Features
 
-- **Language**: Kotlin
-- **UI**: XML (Material Design)
-- **Backend**: Firebase
-- **Maps Integration**: Google Maps API
-- **Payment Gateway**: Razorpay
+* Dedicated host onboarding flow
+* Add and manage homestay listings
+* Upload stay descriptions and amenities
+* Add local guide information
+* Mention pricing and room capacity
+* Set exact location using Google Maps
+* Manage traveler inquiries efficiently
 
-## Installation
+---
 
-1. Clone the repository:
+# 📱 Application Screenshots
+
+## 🔐 Authentication & Welcome Screens
+
+### Welcome Screen
+
+<p align="center">
+  <img src="./assets/1.jpeg" width="260"/>
+</p>
+
+### User Signup Screen
+
+<p align="center">
+  <img src="./assets/2.jpeg" width="260"/>
+</p>
+
+---
+
+## 🏠 Homestay Listing Module
+
+### Create Homestay Listing
+
+<p align="center">
+  <img src="./assets/5.jpeg" width="260"/>
+</p>
+
+### Filled Listing Example
+
+<p align="center">
+  <img src="./assets/4.jpeg" width="260"/>
+</p>
+
+---
+
+## 📍 Location & Maps Integration
+
+### Location Permission Access
+
+<p align="center">
+  <img src="./assets/6.jpeg" width="260"/>
+</p>
+
+### Google Maps Location Selection
+
+<p align="center">
+  <img src="./assets/3.jpeg" width="260"/>
+</p>
+
+---
+
+## 📲 Application Running Preview
+
+### Android Studio Execution
+
+<p align="center">
+  <img src="./assets/7.jpeg" width="900"/>
+</p>
+
+---
+
+# 🛠️ Tech Stack
+
+| Technology                 | Usage                   |
+| -------------------------- | ----------------------- |
+| Kotlin                     | Android Development     |
+| XML                        | UI Design               |
+| Firebase Authentication    | User Authentication     |
+| Firebase Realtime Database | Data Storage            |
+| Firebase Storage           | Image Uploads           |
+| Google Maps SDK            | Location Integration    |
+| Razorpay SDK               | Payment Integration     |
+| Glide                      | Image Loading           |
+| Android Studio             | Development Environment |
+
+---
+
+# 🧩 System Modules
+
+## Traveler Module
+
+* Authentication
+* Homestay Discovery
+* Search Functionality
+* Booking Interface
+* Contact Host
+* Local Recommendations
+
+## Host Module
+
+* Host Registration
+* Property Listing
+* Location Pinning
+* Price & Room Management
+* Local Guide Updates
+* Stay Description Management
+
+---
+
+# 🚀 Installation & Setup
+
+## 1️⃣ Clone Repository
 
 ```bash
-git https://github.com/itssinghankit/NammaHomeStay.git
+git clone https://github.com/AlluruVenkataSaiJyothishReddy/Namma-HomeStay.git
 ```
 
-2. Install necessary dependencies.
-3. Add `Google Map API key` from _Google Maps SDK_ to `secrets.properties`
+---
 
-```bash
-MAPS_API_KEY= <Your API key>
+## 2️⃣ Configure Google Maps API
+
+Create a `local.properties` file in the project root:
+
+```properties
+MAPS_API_KEY=your_google_maps_api_key
 ```
 
-4. Configure Firebase credentials.
-5. Run the app on an Android device or emulator.
+---
 
-## Contributing
+## 3️⃣ Firebase Setup
 
-We welcome contributions to improve Namma HomeStay. Fork the repository, create a branch for your
-changes, and submit a pull request.
+* Create a Firebase project
+* Register the Android application
+* Download `google-services.json`
+* Place it inside the `app/` folder
 
-## Contact
+Enable:
 
-Feel free to reach out with any questions or feedback at
-[support@nammahomestay.com](mailto:support@nammahomestay.com)
+* Firebase Authentication
+* Firebase Realtime Database
+* Firebase Storage
+
+---
+
+## 4️⃣ Run the Project
+
+* Open in Android Studio
+* Sync Gradle
+* Run on Emulator or Physical Device
+
+---
+
+# 🌍 Project Vision
+
+Namma HomeStay aims to support local tourism and empower small homestay owners by providing a digital platform that is simple, accessible, and reliable. The application encourages travelers to experience authentic local culture while helping hosts reach a wider audience.
+
+---
+
+# 📬 Contact
+
+### Developer
+
+**Alluru Venkata Sai Jyothish Reddy**
+
+* GitHub: [https://github.com/AlluruVenkataSaiJyothishReddy](https://github.com/AlluruVenkataSaiJyothishReddy)
+
+---
+
+# ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub.
+
+---
